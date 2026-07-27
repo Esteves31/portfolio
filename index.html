@@ -4,7 +4,53 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
+    <meta
+      name="description"
+      content="Portfólio de Matheus Ramos Esteves, Desenvolvedor de Software"
+    />
+    <title>Matheus Ramos Esteves — Desenvolvedor de Software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: oklch(18% 0.012 260);
+      }
+      ::selection {
+        background: oklch(70% 0.16 300 / 0.35);
+        color: #fff;
+      }
+      a {
+        color: oklch(78% 0.15 300);
+        text-decoration: none;
+      }
+      a:hover {
+        color: oklch(85% 0.13 300);
+      }
+      @keyframes blink {
+        0%,
+        45% {
+          opacity: 1;
+        }
+        50%,
+        95% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
